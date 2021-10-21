@@ -44,8 +44,8 @@ var ems = L.esri.featureLayer({
   pointToLayer: function(feature, latlng) {
     return L.circleMarker(latlng, {
       radius: 4,
-      fillColor: 'blue',
-      color: 'blue',
+      fillColor: 'black',
+      color: 'black',
       weight: 0.1,
       opacity: 1,
       fillOpacity: 0.5,
